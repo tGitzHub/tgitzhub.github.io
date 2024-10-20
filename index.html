@@ -1,14 +1,27 @@
-<!--
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Tauri Yew Demo App</title>
-
-    <link data-trunk rel="css" href="/public/main.css"/>
-  </head>
-  <body></body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorio Space Age Countdown</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        #countdown {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Countdown to Factorio: Space Age</h1>
+    <div id="countdown">Loading...</div>
+    <script type="module">
+        import init from './pkg/your_project_name.js';
+        init();
+    </script>
+</body>
 </html>
--->
-Hello World!
-
